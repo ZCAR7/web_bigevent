@@ -63,8 +63,9 @@ function renderAvatar(user) {
         $('.layui-nav-img').attr('src', user.user_pic).show()
         $('.text-avatar').hide()
     } else {
+        console.log(123456);
         $('.layui-nav-img').hide()
         var first = name[0].toUpperCase()
-        $('.text-avater').html(first).show()
+        $('.text-avatar').html(first).show()
     }
 }
